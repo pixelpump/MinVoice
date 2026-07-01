@@ -1,0 +1,78 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - heading "MinVoice" [level=1] [ref=e6]
+    - navigation [ref=e7]:
+      - link "□ Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e9]: □
+        - text: Dashboard
+      - link "≡ Invoices" [ref=e10] [cursor=pointer]:
+        - /url: /invoices
+        - generic [ref=e11]: ≡
+        - text: Invoices
+      - link "● Clients" [ref=e12] [cursor=pointer]:
+        - /url: /clients
+        - generic [ref=e13]: ●
+        - text: Clients
+      - link "⚙ Settings" [ref=e14] [cursor=pointer]:
+        - /url: /settings
+        - generic [ref=e15]: ⚙
+        - text: Settings
+    - paragraph [ref=e17]: MinVoice v0.1
+  - main [ref=e18]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - heading "New Invoice" [level=2] [ref=e22]
+        - paragraph [ref=e23]: Create a new invoice
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27]: Client
+            - textbox "Search clients..." [ref=e29]
+          - generic [ref=e30]:
+            - generic [ref=e31]:
+              - generic [ref=e32]: "Invoice #"
+              - textbox [ref=e33]: INV-0001
+            - generic [ref=e34]:
+              - generic [ref=e35]: Status
+              - combobox [ref=e36]:
+                - option "Draft" [selected]
+                - option "Sent"
+                - option "Paid"
+                - option "Overdue"
+            - generic [ref=e37]:
+              - generic [ref=e38]: Issue Date
+              - textbox [ref=e39]: 2026-07-01
+            - generic [ref=e40]:
+              - generic [ref=e41]: Due Date
+              - textbox [ref=e42]: 2026-07-31
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - heading "Line Items" [level=3] [ref=e45]
+            - button "+ Add item" [ref=e46]
+          - generic [ref=e48]:
+            - generic [ref=e49]: "1"
+            - textbox "Item description" [active] [ref=e51]
+            - spinbutton "Qty" [ref=e52]: "1"
+            - spinbutton "Rate" [ref=e53]
+            - spinbutton "Tax%" [ref=e54]
+            - generic [ref=e55]: $0.00
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]: Subtotal
+            - generic [ref=e60]: $0.00
+          - generic [ref=e61]:
+            - generic [ref=e62]: Tax
+            - generic [ref=e63]: $0.00
+          - generic [ref=e64]:
+            - generic [ref=e65]: Discount (%)
+            - spinbutton [ref=e66]: "0"
+          - generic [ref=e67]:
+            - generic [ref=e68]: Total
+            - generic [ref=e69]: $0.00
+        - generic [ref=e70]:
+          - generic [ref=e71]: Notes
+          - textbox "Payment terms, thank you note, etc." [ref=e72]
+        - generic [ref=e73]:
+          - button "Save Draft" [ref=e74]
+          - button "Save & Mark as Sent" [ref=e75]

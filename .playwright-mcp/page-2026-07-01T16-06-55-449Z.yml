@@ -1,0 +1,79 @@
+- generic [ref=f5e3]:
+  - complementary [ref=f5e4]:
+    - heading "MinVoice" [level=1] [ref=f5e6]
+    - navigation [ref=f5e7]:
+      - link "□ Dashboard" [active] [ref=f5e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f5e9]: □
+        - text: Dashboard
+      - link "≡ Invoices" [ref=f5e10] [cursor=pointer]:
+        - /url: /invoices
+        - generic [ref=f5e11]: ≡
+        - text: Invoices
+      - link "● Clients" [ref=f5e12] [cursor=pointer]:
+        - /url: /clients
+        - generic [ref=f5e13]: ●
+        - text: Clients
+      - link "⚙ Settings" [ref=f5e14] [cursor=pointer]:
+        - /url: /settings
+        - generic [ref=f5e15]: ⚙
+        - text: Settings
+    - paragraph [ref=f5e17]: MinVoice v0.1
+  - main [ref=f5e18]:
+    - generic [ref=f5e251]:
+      - generic [ref=f5e252]:
+        - generic [ref=f5e253]:
+          - heading "Dashboard" [level=2] [ref=f5e254]
+          - paragraph [ref=f5e255]: Overview of your invoicing
+        - link "New Invoice" [ref=f5e256] [cursor=pointer]:
+          - /url: /invoices/new
+      - generic [ref=f5e257]:
+        - text: Set up your business details in
+        - link "Settings" [ref=f5e258] [cursor=pointer]:
+          - /url: /settings
+        - text: to personalize your invoices.
+      - generic [ref=f5e259]:
+        - paragraph [ref=f5e260]: Total Revenue (Paid)
+        - paragraph [ref=f5e261]: $0.00
+      - generic [ref=f5e262]:
+        - link "Draft 1 invoices" [ref=f5e263] [cursor=pointer]:
+          - /url: /invoices?status=draft
+          - paragraph [ref=f5e264]: Draft
+          - paragraph [ref=f5e265]: "1"
+          - paragraph [ref=f5e266]: invoices
+        - link "Sent 0 outstanding" [ref=f5e267] [cursor=pointer]:
+          - /url: /invoices?status=sent
+          - paragraph [ref=f5e268]: Sent
+          - paragraph [ref=f5e269]: "0"
+          - paragraph [ref=f5e270]: outstanding
+        - link "Paid 0 invoices" [ref=f5e271] [cursor=pointer]:
+          - /url: /invoices?status=paid
+          - paragraph [ref=f5e272]: Paid
+          - paragraph [ref=f5e273]: "0"
+          - paragraph [ref=f5e274]: invoices
+        - link "Overdue 0 need attention" [ref=f5e275] [cursor=pointer]:
+          - /url: /invoices?status=overdue
+          - paragraph [ref=f5e276]: Overdue
+          - paragraph [ref=f5e277]: "0"
+          - paragraph [ref=f5e278]: need attention
+      - generic [ref=f5e279]:
+        - generic [ref=f5e280]:
+          - heading "Recent Invoices" [level=3] [ref=f5e281]
+          - link "View all" [ref=f5e282] [cursor=pointer]:
+            - /url: /invoices
+        - table [ref=f5e284]:
+          - rowgroup [ref=f5e285]:
+            - row "Number Client Total Status" [ref=f5e286]:
+              - columnheader "Number" [ref=f5e287]
+              - columnheader "Client" [ref=f5e288]
+              - columnheader "Total" [ref=f5e289]
+              - columnheader "Status" [ref=f5e290]
+          - rowgroup [ref=f5e291]:
+            - row "INV-0001 Acme Corp $2,500.00 Draft" [ref=f5e292]:
+              - cell "INV-0001" [ref=f5e293]:
+                - link "INV-0001" [ref=f5e294] [cursor=pointer]:
+                  - /url: /invoices/1
+              - cell "Acme Corp" [ref=f5e295]
+              - cell "$2,500.00" [ref=f5e296]
+              - cell "Draft" [ref=f5e297]:
+                - generic [ref=f5e298]: Draft

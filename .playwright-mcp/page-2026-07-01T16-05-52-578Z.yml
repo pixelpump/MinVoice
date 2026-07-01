@@ -1,0 +1,39 @@
+- generic [ref=f5e3]:
+  - complementary [ref=f5e4]:
+    - heading "MinVoice" [level=1] [ref=f5e6]
+    - navigation [ref=f5e7]:
+      - link "□ Dashboard" [ref=f5e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f5e9]: □
+        - text: Dashboard
+      - link "≡ Invoices" [ref=f5e10] [cursor=pointer]:
+        - /url: /invoices
+        - generic [ref=f5e11]: ≡
+        - text: Invoices
+      - link "● Clients" [ref=f5e12] [cursor=pointer]:
+        - /url: /clients
+        - generic [ref=f5e13]: ●
+        - text: Clients
+      - link "⚙ Settings" [ref=f5e14] [cursor=pointer]:
+        - /url: /settings
+        - generic [ref=f5e15]: ⚙
+        - text: Settings
+    - paragraph [ref=f5e17]: MinVoice v0.1
+  - main [ref=f5e18]:
+    - generic [ref=f5e66]:
+      - heading "New Client" [level=2] [ref=f5e68]
+      - generic [ref=f5e69]:
+        - generic [ref=f5e70]:
+          - generic [ref=f5e71]: Name *
+          - textbox "Acme Corp" [ref=f5e72]
+        - generic [ref=f5e73]:
+          - generic [ref=f5e74]: Email
+          - textbox "billing@acme.com" [ref=f5e75]
+        - generic [ref=f5e76]:
+          - generic [ref=f5e77]: Address
+          - textbox "456 Oak Ave New York, NY 10001" [ref=f5e78]:
+            - /placeholder: "456 Oak Ave\nNew York, NY 10001"
+        - generic [ref=f5e79]:
+          - generic [ref=f5e80]: Phone
+          - textbox "+1 (555) 000-0000" [ref=f5e81]
+        - button "Create Client" [ref=f5e83]

@@ -1,0 +1,83 @@
+- generic [ref=f5e3]:
+  - complementary [ref=f5e4]:
+    - heading "MinVoice" [level=1] [ref=f5e6]
+    - navigation [ref=f5e7]:
+      - link "□ Dashboard" [ref=f5e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f5e9]: □
+        - text: Dashboard
+      - link "≡ Invoices" [ref=f5e10] [cursor=pointer]:
+        - /url: /invoices
+        - generic [ref=f5e11]: ≡
+        - text: Invoices
+      - link "● Clients" [ref=f5e12] [cursor=pointer]:
+        - /url: /clients
+        - generic [ref=f5e13]: ●
+        - text: Clients
+      - link "⚙ Settings" [ref=f5e14] [cursor=pointer]:
+        - /url: /settings
+        - generic [ref=f5e15]: ⚙
+        - text: Settings
+    - paragraph [ref=f5e17]: MinVoice v0.1
+  - main [ref=f5e18]:
+    - generic [ref=f5e188]:
+      - generic [ref=f5e189]:
+        - generic [ref=f5e190]:
+          - link "← Back" [ref=f5e191] [cursor=pointer]:
+            - /url: /invoices
+          - heading "INV-0001" [level=2] [ref=f5e192]
+          - generic [ref=f5e193]: Draft
+        - generic [ref=f5e194]:
+          - link "Edit" [ref=f5e195] [cursor=pointer]:
+            - /url: /invoices/1/edit
+          - button "Copy Link" [ref=f5e196]
+          - button "Print" [ref=f5e197]
+          - button "Download PDF" [ref=f5e198]
+          - button "Delete" [ref=f5e199]
+      - generic [ref=f5e200]:
+        - generic [ref=f5e201]: "Mark as:"
+        - button "Draft" [ref=f5e202]
+        - button "Sent" [ref=f5e203]
+        - button "Paid" [ref=f5e204]
+        - button "Overdue" [ref=f5e205]
+      - generic [ref=f5e207]:
+        - generic [ref=f5e208]:
+          - heading "Your Business" [level=1] [ref=f5e210]
+          - generic [ref=f5e211]:
+            - heading "INVOICE" [level=2] [ref=f5e212]
+            - paragraph [ref=f5e213]: INV-0001
+            - generic [ref=f5e214]:
+              - paragraph [ref=f5e215]: "Issue: Jul 1, 2026"
+              - paragraph [ref=f5e216]: "Due: Jul 31, 2026"
+        - generic [ref=f5e217]:
+          - paragraph [ref=f5e218]: Bill To
+          - paragraph [ref=f5e219]: Acme Corp
+          - paragraph [ref=f5e220]: billing@acme.com
+          - paragraph [ref=f5e221]: 456 Oak Ave New York, NY 10001
+          - paragraph [ref=f5e222]: +1 (555) 123-4567
+        - table [ref=f5e223]:
+          - rowgroup [ref=f5e224]:
+            - row "Description Qty Rate Tax Amount" [ref=f5e225]:
+              - columnheader "Description" [ref=f5e226]
+              - columnheader "Qty" [ref=f5e227]
+              - columnheader "Rate" [ref=f5e228]
+              - columnheader "Tax" [ref=f5e229]
+              - columnheader "Amount" [ref=f5e230]
+          - rowgroup [ref=f5e231]:
+            - row "Web Design - Homepage 1 $2500.00 0% $2500.00" [ref=f5e232]:
+              - cell "Web Design - Homepage" [ref=f5e233]
+              - cell "1" [ref=f5e234]
+              - cell "$2500.00" [ref=f5e235]
+              - cell "0%" [ref=f5e236]
+              - cell "$2500.00" [ref=f5e237]
+        - generic [ref=f5e239]:
+          - generic [ref=f5e240]:
+            - generic [ref=f5e241]: Subtotal
+            - generic [ref=f5e242]: $2500.00
+          - generic [ref=f5e243]:
+            - generic [ref=f5e244]: Tax
+            - generic [ref=f5e245]: $0.00
+          - generic [ref=f5e246]:
+            - generic [ref=f5e247]: Total
+            - generic [ref=f5e248]: $2500.00
+        - paragraph [ref=f5e250]: Thank you for your business.

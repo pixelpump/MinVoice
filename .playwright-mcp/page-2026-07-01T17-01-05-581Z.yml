@@ -1,0 +1,121 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - heading "MinVoice" [level=1] [ref=e6]
+    - navigation [ref=e7]:
+      - link "□ Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e9]: □
+        - text: Dashboard
+      - link "≡ Invoices" [ref=e10] [cursor=pointer]:
+        - /url: /invoices
+        - generic [ref=e11]: ≡
+        - text: Invoices
+      - link "● Clients" [ref=e12] [cursor=pointer]:
+        - /url: /clients
+        - generic [ref=e13]: ●
+        - text: Clients
+      - link "⚙ Settings" [ref=e14] [cursor=pointer]:
+        - /url: /settings
+        - generic [ref=e15]: ⚙
+        - text: Settings
+    - paragraph [ref=e17]: MinVoice v0.1
+  - main [ref=e18]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - heading "Settings" [level=2] [ref=e22]
+        - paragraph [ref=e23]: Business information and defaults
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]: Logo
+          - generic [ref=e27]:
+            - img "Logo" [ref=e118]
+            - button "Choose File" [ref=e28]
+        - generic [ref=e29]:
+          - generic [ref=e30]: Business Name
+          - textbox "Your Business Inc." [ref=e31]: My Company LLC
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Email
+            - textbox "hello@yourbusiness.com" [ref=e35]
+          - generic [ref=e36]:
+            - generic [ref=e37]: Phone
+            - textbox "+1 (555) 000-0000" [ref=e38]
+        - generic [ref=e39]:
+          - generic [ref=e40]: Address
+          - textbox "123 Main St New York, NY 10001" [ref=e41]:
+            - /placeholder: "123 Main St\nNew York, NY 10001"
+        - separator [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]: Default Currency
+            - textbox "USD" [ref=e46]
+          - generic [ref=e47]:
+            - generic [ref=e48]: Default Tax Rate (%)
+            - spinbutton [ref=e49]: "0"
+          - generic [ref=e50]:
+            - generic [ref=e51]: Default Due (days)
+            - spinbutton [ref=e52]: "30"
+          - generic [ref=e53]:
+            - generic [ref=e54]: Primary Color
+            - generic [ref=e55]:
+              - textbox [ref=e56] [cursor=pointer]: "#1a1a2e"
+              - textbox [ref=e57]: "#1a1a2e"
+        - separator [ref=e58]
+        - generic [ref=e59]:
+          - generic [ref=e60]: Invoice Font
+          - generic [ref=e61]:
+            - button "Inter Inter Inter" [ref=e120]:
+              - generic [ref=e63]: Inter
+              - generic [ref=e64]:
+                - generic [ref=e65]: Inter
+                - generic [ref=e66]: Inter
+            - button "Spectral + Work Sans Spectral Work Sans" [ref=e68]:
+              - generic [ref=e69]: Spectral + Work Sans
+              - generic [ref=e70]:
+                - generic [ref=e71]: Spectral
+                - generic [ref=e72]: Work Sans
+            - button "Playfair Display + Source Sans 3 Playfair Display Source Sans 3" [ref=e73]:
+              - generic [ref=e74]: Playfair Display + Source Sans 3
+              - generic [ref=e75]:
+                - generic [ref=e76]: Playfair Display
+                - generic [ref=e77]: Source Sans 3
+            - button "DM Serif Display + DM Sans DM Serif Display DM Sans" [ref=e78]:
+              - generic [ref=e79]: DM Serif Display + DM Sans
+              - generic [ref=e80]:
+                - generic [ref=e81]: DM Serif Display
+                - generic [ref=e82]: DM Sans
+            - button "Lora + Lato Lora Lato" [ref=e83]:
+              - generic [ref=e84]: Lora + Lato
+              - generic [ref=e85]:
+                - generic [ref=e86]: Lora
+                - generic [ref=e87]: Lato
+            - button "Cormorant Garamond + Montserrat Cormorant Garamond Montserrat" [ref=e88]:
+              - generic [ref=e89]: Cormorant Garamond + Montserrat
+              - generic [ref=e90]:
+                - generic [ref=e91]: Cormorant Garamond
+                - generic [ref=e92]: Montserrat
+            - button "Space Grotesk Space Grotesk Space Grotesk Active" [active] [ref=e121]:
+              - generic [ref=e94]: Space Grotesk
+              - generic [ref=e95]:
+                - generic [ref=e96]: Space Grotesk
+                - generic [ref=e97]: Space Grotesk
+              - generic [ref=e124]: Active
+            - button "IBM Plex Serif + IBM Plex Sans IBM Plex Serif IBM Plex Sans" [ref=e98]:
+              - generic [ref=e99]: IBM Plex Serif + IBM Plex Sans
+              - generic [ref=e100]:
+                - generic [ref=e101]: IBM Plex Serif
+                - generic [ref=e102]: IBM Plex Sans
+        - separator [ref=e103]
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - generic [ref=e106]: Invoice Prefix
+            - textbox "INV-" [ref=e107]
+          - generic [ref=e108]:
+            - generic [ref=e109]: "Next Invoice #"
+            - spinbutton [ref=e110]: "1"
+        - button "Save Settings" [ref=e112]
+      - generic [ref=e113]:
+        - heading "Data Management" [level=3] [ref=e114]
+        - generic [ref=e115]:
+          - button "Export All Data" [ref=e116]
+          - button "Import Data" [ref=e117]

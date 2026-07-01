@@ -1,0 +1,80 @@
+- generic [ref=f5e3]:
+  - complementary [ref=f5e4]:
+    - heading "MinVoice" [level=1] [ref=f5e6]
+    - navigation [ref=f5e7]:
+      - link "□ Dashboard" [ref=f5e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f5e9]: □
+        - text: Dashboard
+      - link "≡ Invoices" [ref=f5e10] [cursor=pointer]:
+        - /url: /invoices
+        - generic [ref=f5e11]: ≡
+        - text: Invoices
+      - link "● Clients" [ref=f5e12] [cursor=pointer]:
+        - /url: /clients
+        - generic [ref=f5e13]: ●
+        - text: Clients
+      - link "⚙ Settings" [ref=f5e14] [cursor=pointer]:
+        - /url: /settings
+        - generic [ref=f5e15]: ⚙
+        - text: Settings
+    - paragraph [ref=f5e17]: MinVoice v0.1
+  - main [ref=f5e18]:
+    - generic [ref=f5e126]:
+      - generic [ref=f5e127]:
+        - heading "New Invoice" [level=2] [ref=f5e128]
+        - paragraph [ref=f5e129]: Create a new invoice
+      - generic [ref=f5e130]:
+        - generic [ref=f5e131]:
+          - generic [ref=f5e132]:
+            - generic [ref=f5e133]: Client
+            - generic [ref=f5e134]:
+              - textbox "Search clients..." [active] [ref=f5e135]: Acme
+              - button "Acme Corpbilling@acme.com" [ref=f5e182]
+          - generic [ref=f5e136]:
+            - generic [ref=f5e137]:
+              - generic [ref=f5e138]: "Invoice #"
+              - textbox [ref=f5e139]: INV-0001
+            - generic [ref=f5e140]:
+              - generic [ref=f5e141]: Status
+              - combobox [ref=f5e142]:
+                - option "Draft" [selected]
+                - option "Sent"
+                - option "Paid"
+                - option "Overdue"
+            - generic [ref=f5e143]:
+              - generic [ref=f5e144]: Issue Date
+              - textbox [ref=f5e145]: 2026-07-01
+            - generic [ref=f5e146]:
+              - generic [ref=f5e147]: Due Date
+              - textbox [ref=f5e148]: 2026-07-31
+        - generic [ref=f5e149]:
+          - generic [ref=f5e150]:
+            - heading "Line Items" [level=3] [ref=f5e151]
+            - button "+ Add item" [ref=f5e152]
+          - generic [ref=f5e154]:
+            - generic [ref=f5e155]: "1"
+            - textbox "Item description" [ref=f5e156]
+            - spinbutton "Qty" [ref=f5e157]: "1"
+            - spinbutton "Rate" [ref=f5e158]
+            - spinbutton "Tax%" [ref=f5e159]
+            - generic [ref=f5e160]: $0.00
+        - generic [ref=f5e162]:
+          - generic [ref=f5e163]:
+            - generic [ref=f5e164]: Subtotal
+            - generic [ref=f5e165]: $0.00
+          - generic [ref=f5e166]:
+            - generic [ref=f5e167]: Tax
+            - generic [ref=f5e168]: $0.00
+          - generic [ref=f5e169]:
+            - generic [ref=f5e170]: Discount (%)
+            - spinbutton [ref=f5e171]: "0"
+          - generic [ref=f5e172]:
+            - generic [ref=f5e173]: Total
+            - generic [ref=f5e174]: $0.00
+        - generic [ref=f5e175]:
+          - generic [ref=f5e176]: Notes
+          - textbox "Payment terms, thank you note, etc." [ref=f5e177]
+        - generic [ref=f5e178]:
+          - button "Save Draft" [ref=f5e179]
+          - button "Save & Mark as Sent" [ref=f5e180]

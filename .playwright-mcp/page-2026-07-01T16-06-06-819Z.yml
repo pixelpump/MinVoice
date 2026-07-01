@@ -1,0 +1,43 @@
+- generic [ref=f5e3]:
+  - complementary [ref=f5e4]:
+    - heading "MinVoice" [level=1] [ref=f5e6]
+    - navigation [ref=f5e7]:
+      - link "□ Dashboard" [ref=f5e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f5e9]: □
+        - text: Dashboard
+      - link "≡ Invoices" [active] [ref=f5e10] [cursor=pointer]:
+        - /url: /invoices
+        - generic [ref=f5e11]: ≡
+        - text: Invoices
+      - link "● Clients" [ref=f5e12] [cursor=pointer]:
+        - /url: /clients
+        - generic [ref=f5e13]: ●
+        - text: Clients
+      - link "⚙ Settings" [ref=f5e14] [cursor=pointer]:
+        - /url: /settings
+        - generic [ref=f5e15]: ⚙
+        - text: Settings
+    - paragraph [ref=f5e17]: MinVoice v0.1
+  - main [ref=f5e18]:
+    - generic [ref=f5e106]:
+      - generic [ref=f5e107]:
+        - generic [ref=f5e108]:
+          - heading "Invoices" [level=2] [ref=f5e109]
+          - paragraph [ref=f5e110]: 0 of 0 invoices
+        - link "New Invoice" [ref=f5e111] [cursor=pointer]:
+          - /url: /invoices/new
+      - generic [ref=f5e112]:
+        - textbox "Search by number or description..." [ref=f5e113]
+        - generic [ref=f5e114]:
+          - button "All" [ref=f5e115]
+          - button "Draft" [ref=f5e116]
+          - button "Sent" [ref=f5e117]
+          - button "Paid" [ref=f5e118]
+          - button "Overdue" [ref=f5e119]
+      - generic [ref=f5e120]:
+        - generic [ref=f5e122]: +
+        - heading "No invoices yet" [level=3] [ref=f5e123]
+        - paragraph [ref=f5e124]: Create your first invoice to get started.
+        - link "New Invoice" [ref=f5e125] [cursor=pointer]:
+          - /url: /invoices/new

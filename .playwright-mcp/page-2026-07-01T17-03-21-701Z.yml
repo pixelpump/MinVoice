@@ -1,0 +1,57 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - heading "MinVoice" [level=1] [ref=e6]
+    - navigation [ref=e7]:
+      - link "□ Dashboard" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e9]: □
+        - text: Dashboard
+      - link "≡ Invoices" [active] [ref=e10] [cursor=pointer]:
+        - /url: /invoices
+        - generic [ref=e11]: ≡
+        - text: Invoices
+      - link "● Clients" [ref=e12] [cursor=pointer]:
+        - /url: /clients
+        - generic [ref=e13]: ●
+        - text: Clients
+      - link "⚙ Settings" [ref=e14] [cursor=pointer]:
+        - /url: /settings
+        - generic [ref=e15]: ⚙
+        - text: Settings
+    - paragraph [ref=e17]: MinVoice v0.1
+  - main [ref=e18]:
+    - generic [ref=e122]:
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - heading "Invoices" [level=2] [ref=e125]
+          - paragraph [ref=e126]: 1 of 1 invoices
+        - link "New Invoice" [ref=e127] [cursor=pointer]:
+          - /url: /invoices/new
+      - generic [ref=e128]:
+        - textbox "Search by number or description..." [ref=e129]
+        - generic [ref=e130]:
+          - button "All" [ref=e131]
+          - button "Draft" [ref=e132]
+          - button "Sent" [ref=e133]
+          - button "Paid" [ref=e134]
+          - button "Overdue" [ref=e135]
+      - table [ref=e137]:
+        - rowgroup [ref=e138]:
+          - row "Number Client Issue Due Total Status" [ref=e139]:
+            - columnheader "Number" [ref=e140]
+            - columnheader "Client" [ref=e141]
+            - columnheader "Issue" [ref=e142]
+            - columnheader "Due" [ref=e143]
+            - columnheader "Total" [ref=e144]
+            - columnheader "Status" [ref=e145]
+        - rowgroup [ref=e146]:
+          - row "INV-0001 Acme Corp Jul 1, 2026 Jul 31, 2026 $2,260.00 Draft" [ref=e147]:
+            - cell "INV-0001" [ref=e148]:
+              - link "INV-0001" [ref=e149] [cursor=pointer]:
+                - /url: /invoices/2
+            - cell "Acme Corp" [ref=e150]
+            - cell "Jul 1, 2026" [ref=e151]
+            - cell "Jul 31, 2026" [ref=e152]
+            - cell "$2,260.00" [ref=e153]
+            - cell "Draft" [ref=e154]:
+              - generic [ref=e155]: Draft
