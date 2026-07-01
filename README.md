@@ -5,12 +5,17 @@ A minimal, local-first invoicing app. Create professional invoices, manage clien
 ## Features
 
 ### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
 - Total revenue from paid invoices
 - Status breakdown cards (draft, sent, paid, overdue)
 - Recent invoices table with quick links
 - Setup reminder until business profile is configured
 
 ### Invoices
+
+![Invoices](screenshots/invoices.png)
 - Create and edit invoices with live subtotal, tax, discount, and total
 - Line items with description, quantity, unit price, and per-line tax %
 - Line item history auto-complete for faster entry
@@ -28,12 +33,16 @@ A minimal, local-first invoicing app. Create professional invoices, manage clien
 - Print directly from the browser
 
 ### Client Management
+
+![New Client](screenshots/new-client.png)
+
 - Create, edit, and delete clients
 - Name, email, address, and phone fields
 - Delete protection — clients with linked invoices cannot be removed
 
 ### Settings
-- **Business profile**: name, email, phone, address, logo upload
+
+![Settings](screenshots/settings.png)
 - **Invoice defaults**: currency, tax rate, due days, invoice prefix, next number
 - **Appearance**: primary color picker and 8 font pairings with live preview
 - **Data management**: export all data as JSON backup, import to restore
@@ -141,6 +150,7 @@ src/
 └── index.css          # Tailwind + CSS custom properties
 
 public/                # Favicons, manifest, logo assets, icons sprite
+screenshots/            # App screenshots
 ```
 
 ## License
